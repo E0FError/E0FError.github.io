@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} – {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <!-- everything on the left stays the same -->
+      <h2>Finn Grabbe</h2>
+      <p>Master's student in Electrical Engineering at DTU. Interested in Electronics, Markets, Design and Renewables</p>
+      <nav class="social">
+        <a href="https://github.com/E0FError">Github</a>
+        <a href="https://linkedin.com/...">LinkedIN</a>
+        <!-- more links -->
+      </nav>
+      <nav class="nav">
+        <a href="{{ "/" | relative_url }}">Articles</a>
+        <a href="{{ "/lecture-notes/" | relative_url }}">Lecture Notes</a>
+        <a href="{{ "/talks/" | relative_url }}">Talks</a>
+        <a href="{{ "/contact/" | relative_url }}">Contact</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
