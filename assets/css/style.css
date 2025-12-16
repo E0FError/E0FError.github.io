@@ -176,3 +176,12 @@ body {
   margin-bottom: 12px;
 }
 
+.avatar {
+  width: 64px;          /* size of the circle */
+  height: 64px;
+  border-radius: 50%;   /* makes it round */
+  object-fit: cover;    /* crop to fill circle */
+  display: block;
+  margin-bottom: 12px;
+}
+
