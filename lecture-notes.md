@@ -12,7 +12,7 @@ These are a selection of my notes from courses at DTU and other projects.
 
 <div class="notes-grid">
   <div class="note-card">
-    <div class="note-header"> <span
+    <div class="note-header"> <span>
       M1 • Autum 2025 • EN • 64652 • 10 ECTS </span>
       <h3 class="note-title">Power Electronics I</h3>
     </div>
