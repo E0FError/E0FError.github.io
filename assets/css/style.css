@@ -2,6 +2,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
   color: #222;
+  background: #E0EEE9;
 }
 
 .layout {
@@ -76,3 +77,33 @@ body {
     row-gap: 32px;
   }
 }
+.nav-link {
+  display: block;
+  padding: 4px 0 4px 10px;  /* left padding so text doesn’t touch bar */
+  color: #444;
+  text-decoration: none;
+  position: relative;
+}
+
+/* vertical bar on the left */
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;              /* bar thickness */
+  height: 100%;
+  background: transparent; /* default: invisible */
+  transition: background 0.15s ease;
+}
+
+/* light gray bar on hover */
+.nav-link:hover::before {
+  background: #d4d4d4;
+}
+
+/* solid bar for current page */
+.nav-link.active::before {
+  background: #444;
+}
+

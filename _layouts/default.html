@@ -17,11 +17,27 @@
         <!-- more links -->
       </nav>
       <nav class="nav">
-        <a href="{{ "/" | relative_url }}">Articles</a>
-        <a href="{{ "/lecture-notes/" | relative_url }}">Lecture Notes</a>
-        <a href="{{ "/talks/" | relative_url }}">Talks</a>
-        <a href="{{ "/contact/" | relative_url }}">Contact</a>
-      </nav>
+  <a href="{{ "/" | relative_url }}"
+     class="nav-link {% if page.url == "/" %}active{% endif %}">
+    Articles
+  </a>
+
+  <a href="{{ "/lecture-notes/" | relative_url }}"
+     class="nav-link {% if page.url == "/lecture-notes/" %}active{% endif %}">
+    Lecture Notes
+  </a>
+
+  <a href="{{ "/talks/" | relative_url }}"
+     class="nav-link {% if page.url == "/talks/" %}active{% endif %}">
+    Talks
+  </a>
+
+  <a href="{{ "/contact/" | relative_url }}"
+     class="nav-link {% if page.url == "/contact/" %}active{% endif %}">
+    Contact
+  </a>
+</nav>
+
     </aside>
 
     <main class="content">
