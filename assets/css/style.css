@@ -192,3 +192,38 @@ body {
   margin-bottom: 12px;
 }
 
+.contact-form {
+  max-width: 600px;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #333;
+  border-radius: 0;
+  padding: 6px 8px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 8px 22px;
+  border: 1px solid #333;
+  border-radius: 0;
+  background: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
