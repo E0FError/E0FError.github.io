@@ -120,43 +120,59 @@ body {
 
 .notes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 24px;
-  margin-top: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 28px;
 }
 
 .note-card {
   background: #fff;
   border: 1px solid #ddd;
-  border-radius: 2px;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.02);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
+.note-body {
+  padding: 16px 18px 20px;
+  font-size: 14px;
+  line-height: 1.7;   /* more whitespace between lines */
+  color: #444;
+}
+
+
 .note-header {
-  padding: 8px 12px;
+  padding: 10px 14px;
+  background: #f7d3c7;
+}
+
+.note-meta {
+  display: block;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #555;
-  background: #f7d3c7; /* light top band, tweak to taste */
+  white-space: nowrap;   /* force one line */
 }
 
 .note-title {
-  padding: 8px 12px 0;
-  font-size: 18px;
-  margin: 0;
-}
-
-.note-body {
-  padding: 8px 12px 12px;
-  font-size: 13px;
-  color: #444;
+  margin: 4px 0 0;
+  font-size: 20px;
 }
 
 .note-body a {
   color: #444;
   text-decoration: underline;
 }
+
+.content h1 {
+  margin-bottom: 16px;
+}
+
+.content h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
