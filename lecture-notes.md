@@ -12,10 +12,10 @@ These are a selection of my notes from courses at DTU and other projects.
 
 <div class="notes-grid">
   <div class="note-card">
-    <div class="note-header">
-      M1 • Autum 2025 • EN • 64652 • 10 ECTS
+    <div class="note-header"> <span
+      M1 • Autum 2025 • EN • 64652 • 10 ECTS </span>
+      <h3 class="note-title">Power Electronics I</h3>
     </div>
-    <h3 class="note-title">Power Electronics</h3>
     <div class="note-body">
       <p><strong>Lecture notes</strong></p>
       <p>Topics: DC-DC converters, non-isolated and isolated topologies, magnetics, thermal design, filters, control, etc.</p>

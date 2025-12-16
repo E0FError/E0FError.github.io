@@ -127,9 +127,9 @@ body {
 
 .note-card {
   background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  border: 1px solid #b8b8b8;  /* darker border */
+  border-radius: 0;           /* sharp corners */
+  box-shadow: none;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -143,9 +143,11 @@ body {
 }
 
 
+/* top area */
 .note-header {
-  padding: 10px 14px;
+  padding: 10px 18px;
   background: #f7d3c7;
+  border-bottom: 1px solid #b8b8b8;  /* grey line between top and bottom */
 }
 
 .note-meta {
@@ -154,17 +156,22 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #555;
-  white-space: nowrap;   /* force one line */
+  white-space: nowrap;
 }
 
+/* add padding so title aligns with body text */
 .note-title {
   margin: 4px 0 0;
+  padding-top: 2px;
   font-size: 20px;
 }
 
-.note-body a {
+/* bottom area */
+.note-body {
+  padding: 18px 18px 20px;
+  font-size: 14px;
+  line-height: 1.7;
   color: #444;
-  text-decoration: underline;
 }
 
 .content h1 {
@@ -177,8 +184,8 @@ body {
 }
 
 .avatar {
-  width: 64px;          /* size of the circle */
-  height: 64px;
+  width: 58px;          /* size of the circle */
+  height: 58px;
   border-radius: 50%;   /* makes it round */
   object-fit: cover;    /* crop to fill circle */
   display: block;
