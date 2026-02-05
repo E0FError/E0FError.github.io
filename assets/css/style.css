@@ -241,3 +241,51 @@ body {
   margin: 16px 0 40px;
 }
 
+
+/* Improve small-phone layout */
+@media (max-width: 600px) {
+  .layout {
+    margin: 18px auto;
+    padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .notes-grid {
+    grid-template-columns: 1fr; /* single column on phones */
+    gap: 16px;
+    margin-top: 18px;
+  }
+
+  .note-card {
+    border-radius: 6px;
+  }
+
+  .note-header {
+    padding: 12px 14px;
+  }
+
+  .note-body {
+    padding: 12px 14px 16px;
+    font-size: 15px;
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
+  }
+
+  .sidebar {
+    font-size: 13px;
+  }
+
+  .talk-embed {
+    height: 40vh;
+  }
+}
+
+/* Very small devices: tighten spacing */
+@media (max-width: 380px) {
+  .layout { margin: 12px 8px; }
+  .note-title { font-size: 18px; }
+}
+

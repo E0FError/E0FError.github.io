@@ -13,7 +13,7 @@ These are a selection of my notes from courses at DTU and other projects.
 <div class="notes-grid">
   <div class="note-card">
     <div class="note-header"> <span>
-      M1 • Autum 2025 • EN • 64652 • 10 ECTS </span>
+      M1 • Autum 2025 • EN • 34652 • 10 ECTS </span>
       <h3 class="note-title">Power Electronics I</h3>
     </div>
     <div class="note-body">
@@ -23,6 +23,17 @@ These are a selection of my notes from courses at DTU and other projects.
     </div>
   </div>
 
+  <div class="note-card">
+    <div class="note-header"> <span>
+      M1 • January 2026 • EN • 34653 • 5 ECTS </span>
+      <h3 class="note-title">Power Electronics II Lab</h3>
+    </div>
+    <div class="note-body">
+      <p><strong>Lab notes &amp; reports</strong></p>
+      <p>Hands-on lab covering converter design, measurements, and control implementation.</p>
+      <p><a href="/assets/notes/power-electronics-ii-lab-notes.pdf">Download lab notes (PDF)</a></p>
+    </div>
+  </div>
   <!-- repeat .note-card blocks for each course -->
 </div>
 
